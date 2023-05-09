@@ -1,0 +1,26 @@
+@charset "UTF-8";
+:root {
+    --cor-1: #DCC5F0;
+    --cor-2: #4A1BFA;
+    --cor-3: #7E8BE0;
+    --cor-4: #2B8BFA;
+    --cor-5: #C0E6F0;
+}
+
+.container {
+    background-color: var(--cor-5);
+}
+
+form {
+    margin: 0px 20vw;
+}
+
+img {
+    height: 100px;
+
+    transition: all 1s;
+}
+
+label > img:hover {
+    transform: scale(1.1);
+}
