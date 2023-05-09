@@ -34,9 +34,9 @@ function jogar( escolhaJogador ) {
     }
 
     if(nome == '') {
-        placar.innerHTML += `<p>Jogador ${quantVitoriaJogador} x ${quantVitoriaComputador} Computador.</p>`
+        placar.innerHTML += `<p>Jogador ${quantVitoriaJogador} x ${quantVitoriaComputador} Computador</p>`
     } else {
-        placar.innerHTML += `<p>${nome} ${quantVitoriaJogador} x ${quantVitoriaComputador} Computador.</p>`
+        placar.innerHTML += `<p>${nome} ${quantVitoriaJogador} x ${quantVitoriaComputador} Computador</p>`
     }
 }
 
