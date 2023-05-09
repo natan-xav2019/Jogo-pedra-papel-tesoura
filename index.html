@@ -48,29 +48,13 @@
             </form>
         </section>
         <section id="jogo">
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="escolha" id="1">
-                <label class="form-check-label" for="1">
-                    <img src="assets/img/Papel.png" alt="Papel">
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="escolha" id="2" checked>
-                <label class="form-check-label" for="2">
-                    <img src="assets/img/Pedra.png" alt="Pedra">
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="escolha" id="3" checked>
-                <label class="form-check-label" for="3">
-                    <img src="assets/img/Tesoura.png" alt="Tesoura">
-                </label>
-            </div>
+            <div class="btn-group btn-group-lg d-flex mb-4" role="group">
+                <button type="button" class="btn btn-primary" onclick="jogar(1)">Papel</button>
+                <button type="button" class="btn btn-primary" onclick="jogar(2)">Pedra</button>
+                <button type="button" class="btn btn-primary" onclick="jogar(3)">Tesoura</button>
+              </div>
         </section>
         <section id="res">
-            <div class="mb-3">
-                <input class="btn btn-primary" type="button" value="Jogar" onclick="jogar()">
-            </div>
             <div class="d-flex justify-content-center mb-4">
                 <img id="imgresJogador" src="" alt="">
                 <img id="imgresX" src="" alt="">

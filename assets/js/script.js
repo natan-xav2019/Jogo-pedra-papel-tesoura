@@ -1,14 +1,12 @@
 var quantVitoriaJogador = 0
 var quantVitoriaComputador = 0
 
-function jogar() {
-    var jogadaHTML = document.querySelector('input[type="radio"]:checked')
+function jogar( escolhaJogador ) {
     var jogadorHTML = document.querySelector('input#name')
     var resJogador = document.querySelector('#imgresJogador')
     var resComputador = document.querySelector('#imgresComputador')
     var imgresX = document.querySelector("#imgresX")
     var placar = document.querySelector('#placar')
-    var escolhaJogador = jogadaHTML.id
     var nome = jogadorHTML.value
     var enderesoImgJogador = ''
     var enderesoImgComputador = ''
