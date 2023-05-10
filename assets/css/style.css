@@ -2,37 +2,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 :root {
-    --cor-1: #711dbb;
-    --cor-2: #4A1BFA;
-    --cor-3: #7E8BE0;
-    --cor-4: #2B8BFA;
-    --cor-5: #C0E6F0;
-    --bs-btn-bg: var(--cor-4);
-    --bs-btn-hover-bg: var(--cor-2)
+    --primaria: #4A1BFA;
+    --secundaria: #b5b6f9;
+    --terciario: #C0E6F0;
 }
 
 body {
-    color: var(--cor-1);
-    background-color: var(--cor-4);
+    background-color: white;
     font-family: 'Roboto', sans-serif;
 }
 
 .destaque {
     font-family: 'Caveat', cursive;
     font-size: 5em;
+    text-decoration: none;
+    color: var(--primaria);
+}
+
+.destaque:hover {
     text-decoration: underline;
-    color: var(--cor-2);
 }
 
 .container {
-    background-color: var(--cor-5);
-    border: 3px solid var(--cor-3);
+    background-color: var(--terciario);
 }
 
 #apresenta {
     padding: 10px;
     margin-bottom: 20px;
-    border: 5px solid var(--cor-2);
+    border: 5px solid var(--primaria);
 }
 
 #apresenta label {
@@ -40,7 +38,15 @@ body {
 }
 
 .btn-primary {
-    background-color: var(--cor-2);
+    background-color: var(--secundaria);
+    color: black;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #9192dd;
+    color: black;
+    border: none;
 }
 
 img {
